@@ -9,10 +9,10 @@ const Navbar = () => {
           <div className="list-container">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="link" to='/' >Homepage</Link>
+                <Link className="link" to='/' >About Me</Link>
               </li>
               <li className="nav-item">
-                <Link className="link" to='/newform' >New Job</Link>
+                <Link className="link" to='/mywork' >My Work</Link>
               </li>
               <li className="nav-item">
                 <Link className="link" to='https://drive.google.com/file/d/1E9aUY1U31kgjP0oyKnx6u50lXRhYZUSi/view?usp=sharing' >Resume</Link>
