@@ -1,5 +1,5 @@
 import AboutMe from './pages/AboutMe';
-import Projects from './pages/MyWork';
+import MyWork from './pages/MyWork';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header/header';
 import Navbar from './components/Navbar/navbar';
@@ -19,9 +19,7 @@ function App() {
       <Route exact path="/" component={AboutMe} />
       <Route exact path="/mywork" component={MyWork} />
     </Switch>
-
     <Footer />
-
     </Router>
   );
 }
