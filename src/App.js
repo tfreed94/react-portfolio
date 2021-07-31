@@ -17,7 +17,7 @@ function App() {
     <Navbar />
     <Switch>
       <Route exact path="/" component={AboutMe} />
-      <Route exact path="/applications" component={MyWork} />
+      <Route exact path="/mywork" component={MyWork} />
     </Switch>
 
     <Footer />
