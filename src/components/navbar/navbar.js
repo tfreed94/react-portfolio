@@ -12,7 +12,10 @@ const Navbar = () => {
                 <Link className="link" to='/' >Homepage</Link>
               </li>
               <li className="nav-item">
-                <Link className="link" to='/projects' >My Work</Link>
+                <Link className="link" to='/newform' >New Job</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="link" to='https://drive.google.com/file/d/1E9aUY1U31kgjP0oyKnx6u50lXRhYZUSi/view?usp=sharing' >Resume</Link>
               </li>
             </ul>
           </div>
@@ -21,4 +24,4 @@ const Navbar = () => {
     </div>
   )
 }
-export default Navbar
+export default Navbar;
