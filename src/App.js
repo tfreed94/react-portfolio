@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+
+import Header from './component/Header';
+import Footer from './component/Footer';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import AboutMe from './pages/AboutMe';
+import Projects from './pages/Projects';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import "bootstrap-icons/font/bootstrap-icons.css";
+import 'font-awesome/css/font-awesome.min.css';
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+    <Header />
+    <Switch>
+      <Route exact path="/" component= />
+      <Route exact path="/applications" component= />
+    </Switch>
+
+    <Footer />
+
+    </Router>
   );
 }
 
