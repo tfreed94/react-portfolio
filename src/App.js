@@ -16,8 +16,8 @@ function App() {
     <Header />
     <Navbar />
     <Switch>
-      <Route exact path="/" component= />
-      <Route exact path="/applications" component= />
+      <Route exact path="/" component={AboutMe} />
+      <Route exact path="/applications" component={MyWork} />
     </Switch>
 
     <Footer />
