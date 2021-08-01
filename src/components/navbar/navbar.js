@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+const resURL = 'https://drive.google.com/file/d/1E9aUY1U31kgjP0oyKnx6u50lXRhYZUSi/view?usp=sharing'
 
 const Navbar = () => {
-    const resURL = 'https://drive.google.com/file/d/1E9aUY1U31kgjP0oyKnx6u50lXRhYZUSi/view?usp=sharing'
   return (
     <div className='nav-container bg-warning pb-1 mb-1'>
       <nav className="navbar navbar-expand-lg navbar-toggleable-sm">
@@ -16,7 +16,7 @@ const Navbar = () => {
                 <Link className="link mx-2" to='/mywork' >My Work</Link>
               </li>
               <li className="nav-item">
-                <Link className="link mx-2" to= {resURL} >Resume</Link>
+                <a className="link mx-2" href={resURL} >Resume</a>
               </li>
             </ul>
           </div>
