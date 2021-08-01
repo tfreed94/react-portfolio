@@ -26,8 +26,8 @@ const MyWork = () => {
                 </div>
             </div>
             <div className="card">
-                <a href = "https://mytechblog12.herokuapp.com/">
-                <img className="card-img-top" src={techBlog} alt="Pic Of Project" />
+                <a href="https://mytechblog12.herokuapp.com/">
+                    <img className="card-img-top" src={techBlog} alt="Pic Of Project" />
                 </a>
                 <div className="card-body">
                     <h5 className="card-title">Tech Blog</h5>
@@ -35,24 +35,24 @@ const MyWork = () => {
             </div>
             <div className="card-group">
                 <div className="card">
-                    <a href ="https://tfreed94.github.io/MyCodeQuiz/">
-                    <img className="card-img-top" src={quiz} alt="Pic Of Project" />
+                    <a href="https://tfreed94.github.io/MyCodeQuiz/">
+                        <img className="card-img-top" src={quiz} alt="Pic Of Project" />
                     </a>
                     <div className="card-body">
                         <h5 className="card-title">Javascript Code Quiz</h5>
                     </div>
                 </div>
                 <div className="card">
-                    <a href ="https://tfreed94.github.io/MyDayPlanner/">
-                    <img className="card-img-top" src={dayPlanner} alt="Pic Of Project" />
+                    <a href="https://tfreed94.github.io/MyDayPlanner/">
+                        <img className="card-img-top" src={dayPlanner} alt="Pic Of Project" />
                     </a>
                     <div className="card-body">
                         <h5 className="card-title">Day Planner</h5>
                     </div>
                 </div>
                 <div className="card">
-                    <a href = "https://github.com/tfreed94/MyReadMeGenerator">
-                    <img className="card-img-top" src={readMEGen} alt="Pic Of Project" />
+                    <a href="https://github.com/tfreed94/MyReadMeGenerator">
+                        <img className="card-img-top" src={readMEGen} alt="Pic Of Project" />
                     </a>
                     <div className="card-body">
                         <h5 className="card-title">README Generator</h5>

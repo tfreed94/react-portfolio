@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className="fixed-bottom bg-warning d-flex justify-content-between flex-md-row">
             <p className="text-dark">
-                Made by Troy Freed Jr | Tfreedwebdev94@gmail.com | (330)-840-0979
+                Tfreedwebdev94@gmail.com | (330)-840-0979
             </p>
             <div className="d-flex footer">
                 <a className=" mx-2" href='mailto:tfreedwebdev94@gmail.com'>
